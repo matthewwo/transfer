@@ -23,7 +23,7 @@ while getopts "h:f:p:RTv" opt; do
     ;;
     T) OPERATION="T"
     ;;
-    v) echo "Transmit v.1.0 by PrankyMat Feb-20-2015"; exit 0
+    v) echo "Transfer v.1.0 by PrankyMat Feb-20-2015"; exit 0
     ;;
     \?) echo "Invalid option -$OPTARG" >&2
     ;;
