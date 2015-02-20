@@ -30,9 +30,12 @@ $ transfer -Rf file
 ===
 
 #### Other usage
+
+###### Version of transfer
+```bash
 $ ./transfer -v
 Transfer v.1.0 by PrankyMat Feb-20-2015
-
+```
 ---
 
 ### Install
