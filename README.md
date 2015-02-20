@@ -106,3 +106,8 @@ Sudo transfer
 ```bash
 $ sudo ./transfer -Tf file -h host
 ```
+
+===
+
+### Contribution
+Please provide any feedback at the issue page of this repo. Thanks!
