@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		408103D11A99BE9A009D4D61 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 408103D01A99BE9A009D4D61 /* main.c */; };
+		408103D11A99BE9A009D4D61 /* transfer.c in Sources */ = {isa = PBXBuildFile; fileRef = 408103D01A99BE9A009D4D61 /* transfer.c */; };
+		408103DB1A9A569F009D4D61 /* logger.c in Sources */ = {isa = PBXBuildFile; fileRef = 408103D91A9A569F009D4D61 /* logger.c */; };
+		408103DF1A9A597E009D4D61 /* transferOptions.c in Sources */ = {isa = PBXBuildFile; fileRef = 408103DD1A9A597E009D4D61 /* transferOptions.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,13 @@
 
 /* Begin PBXFileReference section */
 		408103CD1A99BE9A009D4D61 /* transfer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = transfer; sourceTree = BUILT_PRODUCTS_DIR; };
-		408103D01A99BE9A009D4D61 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		408103D01A99BE9A009D4D61 /* transfer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = transfer.c; sourceTree = "<group>"; };
+		408103D71A9A55DA009D4D61 /* colors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = colors.h; sourceTree = "<group>"; };
+		408103D81A9A5601009D4D61 /* transfer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = transfer.h; sourceTree = "<group>"; };
+		408103D91A9A569F009D4D61 /* logger.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = logger.c; sourceTree = "<group>"; };
+		408103DA1A9A569F009D4D61 /* logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logger.h; sourceTree = "<group>"; };
+		408103DD1A9A597E009D4D61 /* transferOptions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = transferOptions.c; sourceTree = "<group>"; };
+		408103DE1A9A597E009D4D61 /* transferOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transferOptions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,13 @@
 		408103CF1A99BE9A009D4D61 /* transfer */ = {
 			isa = PBXGroup;
 			children = (
-				408103D01A99BE9A009D4D61 /* main.c */,
+				408103D71A9A55DA009D4D61 /* colors.h */,
+				408103D01A99BE9A009D4D61 /* transfer.c */,
+				408103D81A9A5601009D4D61 /* transfer.h */,
+				408103D91A9A569F009D4D61 /* logger.c */,
+				408103DA1A9A569F009D4D61 /* logger.h */,
+				408103DD1A9A597E009D4D61 /* transferOptions.c */,
+				408103DE1A9A597E009D4D61 /* transferOptions.h */,
 			);
 			path = transfer;
 			sourceTree = "<group>";
@@ -72,6 +86,7 @@
 				408103C91A99BE9A009D4D61 /* Sources */,
 				408103CA1A99BE9A009D4D61 /* Frameworks */,
 				408103CB1A99BE9A009D4D61 /* CopyFiles */,
+				A888C8CF6419DCE4A21F60CB /* Find unused imports */,
 			);
 			buildRules = (
 			);
@@ -113,12 +128,31 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A888C8CF6419DCE4A21F60CB /* Find unused imports */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Find unused imports";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"/Users/mat/Library/Application Support/Developer/Shared/Xcode/Plug-ins/xcfui.xcplugin/Contents/Resources/fui_script.sh\" \"/Users/mat/Developer/transfer/src/c/transfer\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		408103C91A99BE9A009D4D61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				408103D11A99BE9A009D4D61 /* main.c in Sources */,
+				408103D11A99BE9A009D4D61 /* transfer.c in Sources */,
+				408103DB1A9A569F009D4D61 /* logger.c in Sources */,
+				408103DF1A9A597E009D4D61 /* transferOptions.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +266,7 @@
 				408103D61A99BE9A009D4D61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
