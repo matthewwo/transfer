@@ -3,7 +3,7 @@
 ### <font color='red'>Warning: unstable branch</font>
 
 <font color='red'>
-Notice that transfer will compile but will not work as the bash version on master branch.
+Note that transfer will compile but will not work as the bash version on master branch.
 
 If intended to install for real usage, checkout ```master``` branch instead.
 </font>
@@ -89,7 +89,7 @@ $ mv transfer ~/bin/transfer
 
 After moving ```transfer``` to /bin/ or ~/bin/ you can simply invoke ```transfer``` anywhere.
 ```bash
-$ transfer ./transfer -Tf file -h hostname  # no more annoying './' :)
+$ transfer -Tf file -h hostname  # no more annoying './' :)
 ```
 
 ---
