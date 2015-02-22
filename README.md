@@ -40,7 +40,7 @@ $ transfer -Rf file
 
 #### Sending multiple files with wildcard
 ```bash
-$ transfer -T -h host -p port *  // send all files in dir to host through port
+$ transfer -T -h host -p port *  # send all files in dir to host through port
 ```
 
 ===
