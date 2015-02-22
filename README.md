@@ -1,4 +1,15 @@
-# transfer
+# transfer (Rewritten in C)
+---
+### <font color='red'>Warning: unstable branch</font>
+
+<font color='red'>
+Notice that transfer will compile but will not work as the bash version on master branch.
+
+If intended to install for real usage, checkout ```master``` branch instead.
+</font>
+
+---
+
 Transfer files between UNIX machines using nc.
 
 ### Description
