@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>33B8B6A0-563C-4A38-A1CD-3ECC6C8A0A0A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>transfer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>10DA670A846CF08F31F3A913B0215B0BA69A548B</key>
+		<string>https://github.com/prankymat/transfer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>src/c/transfer/transfer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>10DA670A846CF08F31F3A913B0215B0BA69A548B</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/prankymat/transfer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>10DA670A846CF08F31F3A913B0215B0BA69A548B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>10DA670A846CF08F31F3A913B0215B0BA69A548B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>transfer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
